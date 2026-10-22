@@ -1,5 +1,7 @@
 # 中英文资讯去重工具 | Bilingual News Dedupe
 
+**项目状态 / Project status:** 离线规则工具；相似度用于提示重复候选，保留全部输入，不提供跨语言语义模型。 / Offline rule-based utility. Similarity identifies candidates while retaining all input; no cross-language semantic model is included.
+
 同一条资讯可能带着不同的跟踪参数、链接或改写标题进入素材池；只按标题删除，又可能误伤更新了数字的报道。这个离线 Python 工具帮助编辑、研究和数据团队**先找出可能重复的中英文条目，再决定如何处理**。它保留全部输入，并输出每组匹配的依据。
 
 The same story may enter a feed under different URLs, tracking parameters, or rewritten headlines. Deleting by title alone can hide an updated figure. This offline Python tool helps editorial, research, and data teams **spot likely duplicates before deciding what to keep**. It preserves every input record and explains each match.
